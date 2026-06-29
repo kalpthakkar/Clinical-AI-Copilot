@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Clinical AI Copilot](assets/hero.png)
+<!-- ![Clinical AI Copilot](assets/hero.png) -->
 
 
 ### **From Dialogue to Decision** 
