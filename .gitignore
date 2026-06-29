@@ -1,0 +1,40 @@
+# Virtual environments
+venv_copilot/
+venv/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.*
+
+# Logs and runtime files
+logs/
+*.log
+
+# Models, large binaries, databases
+model/
+*.sqlite3
+*.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Audio/temp files
+*.wav
+*.flac
+*.mp3
+
+# Notebook checkpoints
+.ipynb_checkpoints/
