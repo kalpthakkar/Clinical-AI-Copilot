@@ -2,9 +2,12 @@
 
 <div align="center">
 
-![Clinical AI Copilot](assets/hero.svg)
+![Clinical AI Copilot](assets/hero.png)
 
-A next-generation clinical conversation intelligence platform that transforms live doctor-patient dialogue into structured, searchable, and actionable clinical insight.
+
+### **From Dialogue to Decision** 
+
+### *A next-generation clinical conversation intelligence platform that transforms live doctor-patient dialogue into structured, searchable, and actionable clinical insight.*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -33,6 +36,8 @@ Clinical AI Copilot is designed to help bridge the gap between raw conversation 
 
 ### Core workflow
 
+![](assets/workflow.png)
+
 ```text
 Audio Stream → Speech Recognition → Transcript Event → Entity Extraction → Structured Answers → Clinical State Memory
 ```
@@ -49,6 +54,8 @@ Audio Stream → Speech Recognition → Transcript Event → Entity Extraction �
 | LangGraph-style Orchestration | Coordinates multi-step reasoning and stateful AI workflow execution |
 
 ## 🧱 Architecture overview
+
+![](assets/tagline.png)
 
 The project is organized around a modular pipeline:
 
@@ -147,4 +154,4 @@ If you want to collaborate or discuss this project, feel free to connect.
 
 ---
 
-<p align="center"><strong>✨ Built as an advanced Applied AI system for clinical understanding and intelligent assistance. ✨</strong></p>
+<p align="center"><strong>✨ Unlock clarity, precision, and attribution in audio processing. ✨</strong></p>
