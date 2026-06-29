@@ -1,0 +1,61 @@
+dental_sst/
+│
+├── configs/
+│   ├── model_config.yaml
+│   ├── ontology_config.yaml
+│   └── logging_config.yaml
+│
+├── app/
+│   ├── main.py
+│   ├── api/
+│   │   ├── websocket.py
+│   │   └── rest.py
+│   │
+│   ├── asr/
+│   │   ├── whisper_engine.py
+│   │   ├── nemo_engine.py
+│   │   ├── domain_adapter.py
+│   │   └── metrics.py
+│   │
+│   ├── diarization/
+│   │   ├── diarizer.py
+│   │   └── speaker_classifier.py
+│   │
+│   ├── nlp/
+│   │   ├── entity_extractor.py
+│   │   ├── intent_classifier.py
+│   │   └── ontology_mapper.py
+│   │
+│   ├── memory/
+│   │   ├── structured_state.py
+│   │   └── state_manager.py
+│   │
+│   ├── monitoring/
+│   │   ├── wer.py
+│   │   ├── rtf.py
+│   │   └── telemetry.py
+│   │
+│   └── utils/
+│       ├── audio_stream.py
+│       ├── versioning.py
+│       └── logger.py
+│
+├── training/
+│   ├── fine_tune_whisper.py
+│   ├── fine_tune_ner.py
+│   └── datasets/
+│
+├── docker/
+│   ├── Dockerfile
+│   └── docker-compose.yaml
+│
+└── README.md
+
+E2E Data Flow:
+Audio → ASR → RTFx + Confidence → Diarization → Entity Extraction → Ontology Mapping → Structured Clinical State → Agent Orchestrator → Human Review
+
+
+COMMANDS:
+
+powershell -ExecutionPolicy Bypass
+venv_copilot\Scripts\activate
